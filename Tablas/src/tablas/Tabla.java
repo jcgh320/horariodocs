@@ -45,6 +45,7 @@ public class Tabla extends JFrame
             JTable Tablas=new JTable(Datos);
             Tablas.setBounds(12,22,500,500);
             setSize(750,750);
+            add(Tablas);
             setDefaultCloseoperation(JFrame.EXIT_ON_CLOSE);
             setLayout(null);
             setVisible(true);
